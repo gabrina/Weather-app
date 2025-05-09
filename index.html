@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Botostart | Weather App</title>
+    <title>Weather App</title>
   </head>
   <body>
     <div id="search">
@@ -13,7 +13,15 @@
       <button id="search-button">Search</button>
     </div>
     <div id="currentWeather">
-      
+      <span class="loader"></span>
+    </div>
+    <div id="forcast">
+      <!-- <div id="forcast-card">
+        <img src="" alt="" id="forcast-icon">
+        <h4 id="forcast-day">Wednesday</h4>
+        <span id="forcast-temp">24C</span>
+        <span id="forcast-status">Clear</span>
+      </div> -->
     </div>
     <script src="./app.js" type="module"></script>
     <script src="./utils/httpReq.js" type="module"></script>

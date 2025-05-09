@@ -4,7 +4,7 @@ const fetchData = async (URL) => {
     const json = await data.json();
     return json;
   } catch (error) {
-    console.log("SOmething went wrong :/");
+    alert("Something went wrong. Try again!");
   }
 };
 
